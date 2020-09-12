@@ -52,3 +52,6 @@ def attack(pokeName, damage):
 attack("pikachu", 150)
 
 # %%
+
+if "tackle" in poke_moves:
+    print("Ataque encontrado")
